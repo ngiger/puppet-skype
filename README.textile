@@ -1,0 +1,16 @@
+h1. skype
+
+This is the skype module.
+
+h2. License
+
+Apache License, Version 2.0
+
+
+h2. Contact
+
+Niklaus Giger <niklaus.giger@member.fsf.org>
+
+h3. Support
+
+Please log tickets and issues at https://github.com/ngiger/puppet-sky
