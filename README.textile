@@ -1,11 +1,24 @@
-h1. skype
+h1. Puppet Module - Skype
 
-This is the skype module.
+This Puppet module installs Skype on Debian Wheezy amd64
+
+Supported Platforms:
+
+- Debian Wheezy
 
 h2. License
 
 Apache License, Version 2.0
 
+h3. Usage
+
+Install the default version:
+
+@class {'skype': }@
+
+Install a specific version
+
+@class {'skype':  version => '4.0.11-1', }@
 
 h2. Contact
 
@@ -13,4 +26,4 @@ Niklaus Giger <niklaus.giger@member.fsf.org>
 
 h3. Support
 
-Please log tickets and issues at https://github.com/ngiger/puppet-sky
+Please log tickets and issues at https://github.com/ngiger/puppet-skype/issues
